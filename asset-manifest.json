@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.994b2fff.css",
-    "main.js": "/static/js/main.d3709891.js",
+    "main.css": "/static/css/main.7e684ad5.css",
+    "main.js": "/static/js/main.d19f044e.js",
     "static/media/Reliance.png": "/static/media/Reliance.60a5a8cbbbe16cd88f46.png",
     "static/media/Overstock.png": "/static/media/Overstock.67f82989284d9fca206e.png",
     "static/media/MyResume.pdf": "/static/media/MyResume.5b2940c1579bdaa7a2d7.pdf",
     "index.html": "/index.html",
-    "main.994b2fff.css.map": "/static/css/main.994b2fff.css.map",
-    "main.d3709891.js.map": "/static/js/main.d3709891.js.map"
+    "main.7e684ad5.css.map": "/static/css/main.7e684ad5.css.map",
+    "main.d19f044e.js.map": "/static/js/main.d19f044e.js.map"
   },
   "entrypoints": [
-    "static/css/main.994b2fff.css",
-    "static/js/main.d3709891.js"
+    "static/css/main.7e684ad5.css",
+    "static/js/main.d19f044e.js"
   ]
 }
