@@ -18,58 +18,58 @@ import { BsBootstrap } from "react-icons/bs";
 export const Techstacks = () => {
   return (
     <>
-      <div className="section main" data-aos="fade-right">
+      <div  id="skills" className="section main" data-aos="fade-right">
         <h2 className="section__title different">Skills</h2>
-        <div className="techsection">
+        <div  className="skills-card">
           <div>
-            <SiJavascript />
-            <h5>Javascript</h5>
+            <SiJavascript class="skills-card-img" />
+            <h5 class="skills-card-name">Javascript</h5>
           </div>
           <div>
-            <SiHtml5 />
-            <h5>HTML</h5>
+            <SiHtml5 class="skills-card-img" />
+            <h5 class="skills-card-name">HTML</h5>
           </div>
           <div>
-            <DiCss3 />
-            <h5>CSS</h5>
+            <DiCss3 class="skills-card-img" />
+            <h5 class="skills-card-name">CSS</h5>
           </div>
           <div>
-            <FaReact />
-            <h5>React</h5>
+            <FaReact class="skills-card-img" />
+            <h5 class="skills-card-name">React</h5>
           </div>
           <div>
-            <FaNodeJs />
-            <h5>Nodejs</h5>
+            <FaNodeJs class="skills-card-img" />
+            <h5 class="skills-card-name">Nodejs</h5>
           </div>
           <div>
-            <DiMongodb />
-            <h5>MongoDb</h5>
-          </div>
-
-          <div>
-            <SiExpress />
-            <h5>Express</h5>
+            <DiMongodb class="skills-card-img" />
+            <h5 class="skills-card-name">MongoDb</h5>
           </div>
 
           <div>
-            <SiMaterialui />
-            <h5>Material Ui</h5>
+            <SiExpress class="skills-card-img" />
+            <h5 class="skills-card-name">Express</h5>
+          </div>
+
+          <div>
+            <SiMaterialui class="skills-card-img" />
+            <h5 class="skills-card-name">Material Ui</h5>
           </div>
           <div>
-            <BsBootstrap />
-            <h5>Bootstrap</h5>
+            <BsBootstrap class="skills-card-img" />
+            <h5 class="skills-card-name">Bootstrap</h5>
           </div>
           <div>
-            <SiTailwindcss />
-            <h5>Tailwind CSS</h5>
+            <SiTailwindcss class="skills-card-img" />
+            <h5 class="skills-card-name">Tailwind CSS</h5>
           </div>
           <div>
-            <SiNetlify />
-            <h5>Netlify</h5>
+            <SiNetlify class="skills-card-img" />
+            <h5 class="skills-card-name">Netlify</h5>
           </div>
           <div>
-            <VscGithub />
-            <h5>Github</h5>
+            <VscGithub class="skills-card-img" />
+            <h5 class="skills-card-name">Github</h5>
           </div>
         </div>
       </div>

@@ -11,19 +11,21 @@ export const Contact = () => {
 
   return (
     <>
-      <div className="section">
+      <div id="contact" className="section">
         <h2 className="section__title" data-aos="fade-right">
           Get in <span className="different">Touch</span>
         </h2>
         <div className={"contactcontainer " + themename} data-aos="fade-right">
           <a
+          id="contact-linkedin"
             href="https://www.linkedin.com/in/neeraj-singh-mahar-a81b78210/"
             target="_blank"
             rel="noreferrer"
           >
-            <FaLinkedin className="linkedin" />
+            <FaLinkedin />
           </a>
           <a
+            id="contact-github"
             href="https://github.com/neerajsinghmahar11"
             target="_blank"
             rel="noreferrer"
@@ -31,22 +33,27 @@ export const Contact = () => {
             <VscGithub className="github" />
           </a>
           <a
+             
             href="mailto:neeraj.singh.mahar11@gmail.com"
             target="_blank"
             rel="noreferrer"
           >
-            <CgMail className="email" />
+            <CgMail />
+            <p id="contact-email" style={{display:"none"}}>neeraj.singh.mahar11@gmail.com</p>
           </a>
           <a
+
             href="https://www.instagram.com/the_neeraj_mahar/"
             target="_blank"
             rel="noreferrer"
           >
             <BsInstagram className="twitter" />
           </a>
-          <a href="tel:+918860789405" target="_blank" rel="noreferrer">
-            <BsFillTelephoneFill className="phone" />
+          <a  href="tel:+918860789405" target="_blank" rel="noreferrer">
+          <div  style={{display:"grid",gridTemplateColumns:"repeat(1,1fr)",justifyContent:"center",alignItems:"center"}}>  <BsFillTelephoneFill   />
+            </div>
           </a>
+            <p style={{display:"none"}} id="contact-phone">+918860789405</p>
         </div>
       </div>
     </>

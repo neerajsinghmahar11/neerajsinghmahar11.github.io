@@ -1,7 +1,7 @@
 .main {
   margin-top: 4em;
 }
-.techsection {
+.skills-card {
   width: 100%;
   text-align: center;
   background-color: var(--clr-bg);
@@ -9,7 +9,7 @@
   /* max-height: 400px; */
 }
 
-.techsection > div {
+.skills-card > div {
   width: 11%;
   height: 16vh;
   max-height: 140px;
@@ -24,7 +24,7 @@
   align-items: center;
   transition: all 0.5s ease 0s;
 }
-.techsection > div:hover {
+.skills-card > div:hover {
   background-color: var(--clr-bg);
   overflow: hidden;
   transform: scale(1.08);
@@ -33,22 +33,22 @@
   border: 1px solid var(--clr-primary);
 }
 
-.techsection > div > svg {
+.skills-card > div > svg {
   /* height: 50%;
   width: 50%; */
   font-size: 8vh;
   color: var(--clr-primary);
 }
-.techsection > div > h5 {
+.skills-card > div > h5 {
   position: relative;
   top: 8px;
 }
 
 @media (max-width: 600px) {
-  .techsection {
+  .skills-card {
     height: 120vh;
   }
-  .techsection > div {
+  .skills-card > div {
     width: 40%;
     margin-right: 5%;
     margin-bottom: 2%;

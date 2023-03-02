@@ -11,16 +11,18 @@ import PublicIcon from "@material-ui/icons/Public";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
+import MR from "../../Assets/pdf/MyResume.pdf";
 export const About = () => {
   return (
     <>
-      <div className="about center">
+      <div id="about" className="about section">
+        <h1>About</h1>
         <h1 data-aos="fade-right">
-          Hi, I am <span className="about__name">Neeraj Singh Mahar</span>
+          Hi, I am <span id="user-detail-name" className="about__name">Neeraj Singh Mahar</span>
         </h1>
         <Type />
-        <p className="about__desc" data-aos="fade-right">
-        Adaptable and accountable team player, driven to deliver the best in any situation. A passionate Full Stack Developer with proficiency in Data Structures and Algorithms. Looking forward to utilizing current skillset and experience of working on projects to create a mark in the software industry and achieve organizational goals.
+        <p id="user-detail-intro" className="about__desc" data-aos="fade-right">
+        Adaptable and accountable team player, driven to deliver the best in any situation. A passionate Full Stack Developer with proficiency in HTML, CSS, MongoDB, React, Data Structures and Algorithms. Looking forward to utilizing current skillset and experience of working on projects to create a mark in the software industry and achieve organizational goals.
         </p>
         <div className="about__contact center">
           <a
@@ -29,6 +31,7 @@ export const About = () => {
             target="_blank"
             rel="noreferrer"
             className="link link--icon"
+            id="contact-github"
           >
             <GitHubIcon />
           </a>
@@ -38,6 +41,8 @@ export const About = () => {
             rel="noreferrer"
             aria-label="github"
             className="link link--icon"
+            id="contact-email"
+            
           >
             <EmailIcon />
           </a>
@@ -47,6 +52,7 @@ export const About = () => {
             rel="noreferrer"
             aria-label="github"
             className="link link--icon"
+            id="contact-phone"
           >
             <PhoneIcon />
           </a>
@@ -56,15 +62,17 @@ export const About = () => {
             className="link link--icon"
             target="_blank"
             rel="noreferrer"
+            id="contact-linkedin"
           >
             <LinkedInIcon />
           </a>
           <a
-            href="https://drive.google.com/file/d/14MC3Vsr8lCufhOoj_EmTeJ3lokzY4TIa/view?usp=sharing"
-            aria-label="github"
+            href={MR}
             className="link link--icon"
             target="_blank"
             rel="noreferrer"
+            id="resume-button-2"
+            download={MR}
           >
             <DescriptionIcon />
           </a>

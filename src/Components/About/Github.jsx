@@ -1,6 +1,7 @@
 import React from "react";
 import Githubcalendar from "react-github-calendar";
 import { ThemeContext } from "../../Context/theme";
+import { Image,Container,Center } from "@chakra-ui/react";
 
 export const Github = () => {
   const colourTheme = {
@@ -16,17 +17,30 @@ export const Github = () => {
 
   return (
     <>
-      <div className={"section " + themename} data-aos="fade-right">
+      <div className={"section " + colourTheme} data-aos="fade-right">
         <h2 className="section__title different">
           Days I <span className="different"> Code</span>
         </h2>
         <Githubcalendar
+          class="react-activity-calendar"
           username="neerajsinghmahar11"
           blockSize={15}
           blockMargin={5}
           theme={themename}
           fontSize={16}
         />
+        <Container maxW={['full','full','60%','full','full']}  gap='10px' m='auto' >
+            <Center gap='10px'display={['block','block','block','flex','flex']}>
+
+        <Image id="github-streak-stats" src='https://github-readme-streak-stats.herokuapp.com?user=neerajsinghmahar11&theme=github-dark&border_radius=20'/>
+        <Image id="github-stats-card" src='https://github-readme-stats.vercel.app/api?username=neerajsinghmahar11&show_icons=true&theme=dark&border_radius=20'/>
+            </Center>
+
+
+            <Center maxW="90%"  margin='auto'padding='0px'  marginTop='50px'>
+        <Image id="github-top-langs" src='https://github-readme-stats.vercel.app/api/top-langs/?username=neerajsinghmahar11&layout=compact&border_radius=20'/>
+            </Center>
+        </Container>
       </div>
     </>
   );

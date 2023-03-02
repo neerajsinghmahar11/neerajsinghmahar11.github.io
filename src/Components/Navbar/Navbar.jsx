@@ -5,6 +5,7 @@ import Brightness2Icon from "@material-ui/icons/Brightness2";
 import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
+import MR from "../../Assets/pdf/MyResume.pdf";
 
 export const Navbar = () => {
   const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
@@ -19,63 +20,67 @@ export const Navbar = () => {
   };
   return (
     <>
-      <nav className="center nav">
+      <nav className="center nav" >
         <ul
+        id="nav-menu"
           style={{ display: showNavList ? "flex" : null }}
           className="nav__list"
         >
           <li className="nav__list-item">
             <a
+              className="nav-link home"
               href="#home"
               onClick={() => toggleNavList("#home")}
-              className="link link--nav"
+              // className="link link--nav"
             >
               Home
             </a>
           </li>
           <li className="nav__list-item">
             <a
+            className="nav-link about"
               href="#about"
               onClick={() => toggleNavList("#about")}
-              className="link link--nav"
             >
               About
             </a>
           </li>
           <li className="nav__list-item">
             <a
+              className="nav-link skills"
               href="#skills"
               onClick={() => toggleNavList("#skills")}
-              className="link link--nav"
             >
               Skills
             </a>
           </li>
           <li className="nav__list-item">
             <a
+              className="nav-link projects"
               href="#projects"
               onClick={() => toggleNavList("#projects")}
-              className="link link--nav"
             >
               Projects
             </a>
           </li>
           <li className="nav__list-item">
             <a
+              className="nav-link contact"
               href="#contact"
               onClick={() => toggleNavList("#contact")}
-              className="link link--nav"
             >
               Contact
             </a>
           </li>
           <li className="nav__list-item">
             <a
-              href="https://drive.google.com/file/d/14MC3Vsr8lCufhOoj_EmTeJ3lokzY4TIa/view?usp=sharing"
+              className="nav-link resume"
+              href={MR}
               onClick={toggleNavList}
-              className="link link--nav"
               target="_blank"
               rel="noreferrer"
+              id="resume-button-1"
+              download={MR}
             >
               Resume
             </a>
@@ -91,9 +96,9 @@ export const Navbar = () => {
           {themename === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
         </button>
         <button
+          className="btn btn--icon nav__hamburger"
           type="button"
           onClick={toggleNavList}
-          className="btn btn--icon nav__hamburger"
           aria-label="toggle navigation"
         >
           {showNavList ? <CloseIcon /> : <MenuIcon />}

@@ -9,14 +9,15 @@ export const Introduction = () => {
 
   return (
     <>
-      <section id="#about">
-        <div className="section" data-aos="fade-right">
-          <h2 className="section__title">
+      <section>
+        <div data-aos="fade-right">
+          <h2  className="section__title">
             About <span className="different">Me</span>
           </h2>
           <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
               <img
+              class="home-img"
                 src="https://avatars.githubusercontent.com/u/112856505?s=400&u=f9d6f680a06aedeb26264809dd4a9e9e1fd17750&v=4"
                 alt="Images"
               />
@@ -24,9 +25,9 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, I am{" "}
-                <span className="different">Neeraj Singh Mahar</span> from{" "}
-                <span className="different"> Bhajanpura, New Delhi</span>. I have done my graduation in Bachelor of Arts from Delhi University.
-                I am an Aspiring Full Stack Web Developer who likes learning and building things that upgrade my skills.
+                <span className="different" id="user-detail-name">Neeraj Singh Mahar</span> from{" "}
+                <p><span > Bhajanpura, New Delhi</span>. I have done my graduation in Bachelor of Arts from Delhi University.
+                I am an Aspiring Full Stack Web Developer who likes learning and building things that upgrade my skills.</p>
               </h4>
               <h4>
                 Some of my interests apart form Coding :

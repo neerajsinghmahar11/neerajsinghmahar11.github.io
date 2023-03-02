@@ -8,7 +8,7 @@ export const Header = () => {
 
   return (
     <>
-      <header className={"header center " + themename}>
+      <header id="home" className={"header center  " + themename}>
         <h3>
           <a href="#home" className="link">
             Neeraj Singh Mahar

@@ -62,7 +62,7 @@ export const Timeline = () => {
               Affaliate Marketing.
             </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
+          {/* <VerticalTimelineElement
             date={"August 2021 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
@@ -93,7 +93,7 @@ export const Timeline = () => {
               Joined the Military style Bootcamp to learn Web Development
               and Data Structures. Also learned many soft skills in the process.
             </p>
-          </VerticalTimelineElement>
+          </VerticalTimelineElement> */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={"April 2019 - August 2022"}
