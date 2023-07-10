@@ -32,7 +32,7 @@ export const Github = () => {
         <Container maxW={['full','full','60%','full','full']}  gap='10px' m='auto' >
             <Center gap='10px'display={['block','block','block','flex','flex']}>
 
-        <Image id="github-streak-stats" src='https://github-readme-streak-stats.herokuapp.com?user=neerajsinghmahar11&theme=github-dark&border_radius=20'/>
+        <Image   id="github-streak-stats" src='https://github-readme-streak-stats.herokuapp.com?user=neerajsinghmahar11&theme=github-dark&border_radius=20'/>
         <Image id="github-stats-card" src='https://github-readme-stats.vercel.app/api?username=neerajsinghmahar11&show_icons=true&theme=dark&border_radius=20'/>
             </Center>
 
