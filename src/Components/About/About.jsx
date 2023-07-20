@@ -10,7 +10,7 @@ import PublicIcon from "@material-ui/icons/Public";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
-import MR from "../../Assets/pdf/NeerajSinghMaharResume.pdf";
+import MR from "../../Assets/pdf/Neeraj.singh.mahar.CV.pdf";
 export const About = () => {
   return (
     <>
