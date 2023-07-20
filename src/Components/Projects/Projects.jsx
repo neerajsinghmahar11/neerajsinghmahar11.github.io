@@ -175,8 +175,8 @@ export const Projects = () => {
                 Overstock.com, Inc. is an American internet retailer selling primarily furniture, designer brands & home goods at the lowest prices online
               </p>
               <div class="project-tech-stack">
-                <SiHtml5 />
-                <IoLogoJavascript />
+                <SiHtml5 class="project-tech-stack"/>
+                <IoLogoJavascript class="project-tech-stack"/>
                 <SiCss3/>
               </div>
               <div>
