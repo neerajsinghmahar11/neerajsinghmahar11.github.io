@@ -4,23 +4,22 @@ import { FaReact, FaNodeJs } from "react-icons/fa";
 import {
   SiRedux,
   SiHtml5,
-  SiMaterialui,
-  SiExpress,
-  SiRedis,
   SiTailwindcss,
-  SiNetlify
+  SiNetlify,
+  SiJavascript,
+  SiChakraui,
 } from "react-icons/si";
-import { DiCss3, DiMongodb } from "react-icons/di";
-import { SiJavascript } from "react-icons/si";
+import { DiCss3 } from "react-icons/di";
 import { VscGithub } from "react-icons/vsc";
-import { BsBootstrap } from "react-icons/bs";
+import { TbBrandNextjs } from "react-icons/tb";
+import { TbBrandTypescript} from "react-icons/tb";
 
 export const Techstacks = () => {
   return (
     <>
-      <div  id="skills" className="section main" data-aos="fade-right">
+      <div id="skills" className="section main" data-aos="fade-right">
         <h2 className="section__title different">Skills</h2>
-        <div  className="skills-card">
+        <div className="skills-card">
           <div>
             <SiJavascript class="skills-card-img" />
             <h5 class="skills-card-name">Javascript</h5>
@@ -38,26 +37,24 @@ export const Techstacks = () => {
             <h5 class="skills-card-name">React</h5>
           </div>
           <div>
-            <FaNodeJs class="skills-card-img" />
-            <h5 class="skills-card-name">Nodejs</h5>
+            <SiRedux class="skills-card-img" />
+            <h5 class="skills-card-name">Redux</h5>
           </div>
           <div>
-            <DiMongodb class="skills-card-img" />
-            <h5 class="skills-card-name">MongoDb</h5>
+            <TbBrandTypescript class="skills-card-img" />
+            <h5 class="skills-card-name">Typescript</h5>
           </div>
-
           <div>
-            <SiExpress class="skills-card-img" />
-            <h5 class="skills-card-name">Express</h5>
+            <TbBrandNextjs class="skills-card-img" />
+            <h5 class="skills-card-name">Next.js</h5>
           </div>
-
           <div>
-            <SiMaterialui class="skills-card-img" />
+            <h2 class="skills-card-img" >MI</h2>
             <h5 class="skills-card-name">Material Ui</h5>
           </div>
           <div>
-            <BsBootstrap class="skills-card-img" />
-            <h5 class="skills-card-name">Bootstrap</h5>
+            <SiChakraui class="skills-card-img" />
+            <h5 class="skills-card-name">Chakra Ui</h5>
           </div>
           <div>
             <SiTailwindcss class="skills-card-img" />
