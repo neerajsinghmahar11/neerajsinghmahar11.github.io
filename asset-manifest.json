@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.7e684ad5.css",
-    "main.js": "/static/js/main.60bced68.js",
+    "main.js": "/static/js/main.fad8d680.js",
     "static/media/Reliance.png": "/static/media/Reliance.60a5a8cbbbe16cd88f46.png",
     "static/media/Overstock.png": "/static/media/Overstock.67f82989284d9fca206e.png",
     "static/media/Neeraj.singh.mahar.CV.pdf": "/static/media/Neeraj.singh.mahar.CV.bbc75de5052eec67aa0e.pdf",
     "index.html": "/index.html",
     "main.7e684ad5.css.map": "/static/css/main.7e684ad5.css.map",
-    "main.60bced68.js.map": "/static/js/main.60bced68.js.map"
+    "main.fad8d680.js.map": "/static/js/main.fad8d680.js.map"
   },
   "entrypoints": [
     "static/css/main.7e684ad5.css",
-    "static/js/main.60bced68.js"
+    "static/js/main.fad8d680.js"
   ]
 }
